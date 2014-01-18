@@ -33,11 +33,11 @@ Find selector on url,
     $ qrep span.octicon-logo-github https://github.com
     <span class="mega-octicon octicon-logo-github"></span>
 
-Update tvm.
+Update qrep.
 
     $ npm update -g qrep
 
-Uninstall tvm.
+Uninstall qrep.
 
     $ npm uninstall -g qrep
 
