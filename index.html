@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Qrep by watilde</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/watilde/qrep">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Qrep</h1>
+            <h2>grep like querySelectorAll.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/watilde/qrep/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/watilde/qrep/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="qrep" class="anchor" href="#qrep"><span class="octicon octicon-link"></span></a>qrep</h1>
+
+<p>grep like querySelectorAll.</p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>Using npm.</p>
+
+<pre><code>$ npm install -g qrep
+</code></pre>
+
+<p>Confirm.</p>
+
+<pre><code>$ qrep usage
+</code></pre>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<pre><code>qrep selector filename
+qrep selector url
+</code></pre>
+
+<h2>
+<a name="option" class="anchor" href="#option"><span class="octicon octicon-link"></span></a>Option</h2>
+
+<pre><code>qrep selector filename -e encoding(default = utf8)
+qrep selector url -e encoding(default = utf8)
+</code></pre>
+
+<h2>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<p>Find selector in filename.</p>
+
+<pre><code>$ qrep #logo ./tpl/index.html
+&lt;header&gt;&lt;span id="logo"&gt;&lt;/div&gt;&lt;/header&gt;
+</code></pre>
+
+<p>Find selector on url,</p>
+
+<pre><code>$ qrep span.octicon-logo-github https://github.com
+&lt;span class="mega-octicon octicon-logo-github"&gt;&lt;/span&gt;
+</code></pre>
+
+<p>Update tvm.</p>
+
+<pre><code>$ npm update -g qrep
+</code></pre>
+
+<p>Uninstall tvm.</p>
+
+<pre><code>$ npm uninstall -g qrep
+</code></pre>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/watilde">watilde</a> can be found on <a href="https://github.com/watilde/qrep">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
