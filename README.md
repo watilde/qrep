@@ -12,6 +12,14 @@ Confirm.
 
     $ qrep usage
 
+## Uninstall
+
+    $ npm uninstall -g qrep
+
+## Update
+
+    $ npm update -g qrep
+
 ## Usage
 
     qrep selector filename
@@ -26,18 +34,10 @@ Confirm.
 Find selector in filename.
 
     $ qrep #logo ./tpl/index.html
-    <header><span id="logo"></div></header>
+    <header><span id="logo"></span></header>
 
 Find selector on url,
 
     $ qrep span.octicon-logo-github https://github.com
     <span class="mega-octicon octicon-logo-github"></span>
-
-Update qrep.
-
-    $ npm update -g qrep
-
-Uninstall qrep.
-
-    $ npm uninstall -g qrep
 
