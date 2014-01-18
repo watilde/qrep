@@ -1,6 +1,6 @@
 {
   "name": "qrep",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "grep like querySelectorAll",
   "bin": {
     "qrep": "./bin/qrep"
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git@github.com:watilde/qrep.git"
   },
+  "homepage": "http://watilde.github.io/qrep/",
   "keywords": [
     "qrep"
   ],
