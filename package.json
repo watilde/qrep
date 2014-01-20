@@ -1,21 +1,21 @@
 {
   "name": "qrep",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "grep like querySelectorAll",
   "bin": {
     "qrep": "./bin/qrep"
   },
-  "main": "./lib/qrep",
+  "main": "./lib/main",
   "repository": {
     "type": "git",
     "url": "git@github.com:watilde/qrep.git"
   },
   "homepage": "http://watilde.github.io/qrep/",
   "keywords": [
-    "qrep"
+    "qrep", "grep"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "author": {
     "name": "Daijiro Wachi",
@@ -28,5 +28,8 @@
   },
   "bugs": {
     "url": "https://github.com/watilde/qrep/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0"
   }
 }
