@@ -41,3 +41,6 @@ Find selector on url,
     $ qrep span.octicon-logo-github https://github.com
     <span class="mega-octicon octicon-logo-github"></span>
 
+Find selector with stdin
+    curl -s -L "http://google.com/" | ./bin/qrep title
+    <title>Google</title>
