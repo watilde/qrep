@@ -92,15 +92,17 @@ qrep selector url -e encoding(default = utf8)
 &lt;header&gt;&lt;span id="logo"&gt;&lt;/span&gt;&lt;/header&gt;
 </code></pre>
 
-<p>Find selector on url,</p>
+<p>Find selector on url.</p>
 
 <pre><code>$ qrep span.octicon-logo-github https://github.com
 &lt;span class="mega-octicon octicon-logo-github"&gt;&lt;/span&gt;
 </code></pre>
 
-<p>Find selector with stdin
-    curl -s -L "<a href="http://google.com/">http://google.com/</a>" | ./bin/qrep title
-    </p>Google
+<p>Find selector with stdin</p>
+
+<pre><code>curl -s -L "http://google.com/" | ./bin/qrep title
+&lt;title&gt;Google&lt;/title&gt;
+</code></pre>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/watilde">watilde</a></p>
