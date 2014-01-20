@@ -36,11 +36,12 @@ Find selector in filename.
     $ qrep #logo ./tpl/index.html
     <header><span id="logo"></span></header>
 
-Find selector on url,
+Find selector on url.
 
     $ qrep span.octicon-logo-github https://github.com
     <span class="mega-octicon octicon-logo-github"></span>
 
-Find selector with stdin
-    curl -s -L "http://google.com/" | ./bin/qrep title
+Find selector with stdin.
+
+    curl -s -L "http://google.com/" | qrep title
     <title>Google</title>
