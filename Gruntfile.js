@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 
   // Load Grunt Plugins
   Object.keys(packageJson.devDependencies)
-    .slice(2).forEach(grunt.loadNpmTasks);
+    .slice(1).forEach(grunt.loadNpmTasks);
   grunt.registerTask('default', ['watch']);
   grunt.registerTask('test', ['jshint']);
 };
