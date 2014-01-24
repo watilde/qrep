@@ -43,5 +43,5 @@ Find selector on url.
 
 Find selector with stdin.
 
-    curl -s -L "http://google.com/" | qrep title
+    curl -s -L http://google.com | qrep title
     <title>Google</title>
