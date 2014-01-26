@@ -1,4 +1,5 @@
 module.exports = {
   watch: require('./watch'),
-  jshint: require('./jshint')
+  jshint: require('./jshint'),
+  nodeunit: require('./nodeunit')
 };
