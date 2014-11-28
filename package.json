@@ -16,7 +16,7 @@
     "grep"
   ],
   "scripts": {
-    "test": ""
+    "test": "grunt test"
   },
   "author": {
     "name": "Daijiro Wachi",
