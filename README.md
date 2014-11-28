@@ -2,6 +2,12 @@
 
 grep like querySelectorAll.
 
+## Badgeds
++ [![NPM Version](http://img.shields.io/npm/v/qrep.svg)](https://www.npmjs.org/package/qrep)
++ [![MIT LICENSE](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/watilde/qrep/blob/master/LICENSE)
++ [![Build Status](https://api.travis-ci.org/watilde/qrep.svg)](https://travis-ci.org/watilde/qrep)
++ [![Dependency Status](https://gemnasium.com/watilde/qrep.svg)](https://gemnasium.com/watilde/qrep)
+
 ## Install
 
 Using npm.
