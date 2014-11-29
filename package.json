@@ -1,6 +1,6 @@
 {
   "name": "qrep",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "grep like querySelectorAll",
   "bin": {
     "qrep": "./bin/qrep"
