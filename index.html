@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Qrep by watilde</title>
+    <title>qrep by watilde</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -17,7 +17,7 @@
   <body>
 
       <header>
-        <h1>Qrep</h1>
+        <h1>qrep</h1>
         <p>grep like querySelectorAll.</p>
       </header>
 
@@ -40,12 +40,22 @@
       </nav>
       <section>
         <h1>
-<a name="qrep" class="anchor" href="#qrep"><span class="octicon octicon-link"></span></a>qrep</h1>
+<a id="qrep" class="anchor" href="#qrep" aria-hidden="true"><span class="octicon octicon-link"></span></a>qrep</h1>
 
 <p>grep like querySelectorAll.</p>
 
 <h2>
-<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+<a id="badgeds" class="anchor" href="#badgeds" aria-hidden="true"><span class="octicon octicon-link"></span></a>Badgeds</h2>
+
+<ul>
+<li><a href="https://www.npmjs.org/package/qrep"><img src="http://img.shields.io/npm/v/qrep.svg" alt="NPM Version"></a></li>
+<li><a href="https://github.com/watilde/qrep/blob/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT LICENSE"></a></li>
+<li><a href="https://travis-ci.org/watilde/qrep"><img src="https://api.travis-ci.org/watilde/qrep.svg" alt="Build Status"></a></li>
+<li><a href="https://gemnasium.com/watilde/qrep"><img src="https://gemnasium.com/watilde/qrep.svg" alt="Dependency Status"></a></li>
+</ul>
+
+<h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
 
 <p>Using npm.</p>
 
@@ -58,33 +68,33 @@
 </code></pre>
 
 <h2>
-<a name="uninstall" class="anchor" href="#uninstall"><span class="octicon octicon-link"></span></a>Uninstall</h2>
+<a id="uninstall" class="anchor" href="#uninstall" aria-hidden="true"><span class="octicon octicon-link"></span></a>Uninstall</h2>
 
 <pre><code>$ npm uninstall -g qrep
 </code></pre>
 
 <h2>
-<a name="update" class="anchor" href="#update"><span class="octicon octicon-link"></span></a>Update</h2>
+<a id="update" class="anchor" href="#update" aria-hidden="true"><span class="octicon octicon-link"></span></a>Update</h2>
 
 <pre><code>$ npm update -g qrep
 </code></pre>
 
 <h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <pre><code>qrep selector filename
 qrep selector url
 </code></pre>
 
 <h2>
-<a name="option" class="anchor" href="#option"><span class="octicon octicon-link"></span></a>Option</h2>
+<a id="option" class="anchor" href="#option" aria-hidden="true"><span class="octicon octicon-link"></span></a>Option</h2>
 
 <pre><code>qrep selector filename -e encoding(default = utf8)
 qrep selector url -e encoding(default = utf8)
 </code></pre>
 
 <h2>
-<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h2>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
 
 <p>Find selector in filename.</p>
 
@@ -100,7 +110,7 @@ qrep selector url -e encoding(default = utf8)
 
 <p>Find selector with stdin.</p>
 
-<pre><code>curl -s -L http://google.com | qrep title
+<pre><code>$ curl -s -L http://google.com | qrep title
 &lt;title&gt;Google&lt;/title&gt;
 </code></pre>
       </section>
