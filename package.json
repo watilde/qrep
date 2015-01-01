@@ -1,7 +1,7 @@
 {
   "name": "qrep",
   "version": "0.3.1",
-  "description": "grep meet the querySelectorAll",
+  "description": "grep meets querySelectorAll",
   "bin": {
     "qrep": "./bin/qrep"
   },
