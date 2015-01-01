@@ -1,6 +1,6 @@
 # qrep
 
-grep like querySelectorAll.
+grep meet the querySelectorAll
 
 ## Badgeds
 + [![NPM Version](http://img.shields.io/npm/v/qrep.svg)](https://www.npmjs.org/package/qrep)
