@@ -1,8 +1,8 @@
 # qrep
 
-grep meet the querySelectorAll
+**grep** meets **querySelectorAll**
 
-## Badgeds
+## Badges
 + [![NPM Version](http://img.shields.io/npm/v/qrep.svg)](https://www.npmjs.org/package/qrep)
 + [![MIT LICENSE](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/watilde/qrep/blob/master/LICENSE)
 + [![Build Status](https://api.travis-ci.org/watilde/qrep.svg)](https://travis-ci.org/watilde/qrep)
@@ -37,12 +37,12 @@ Confirm.
 
 ## Example
 
-Find selector in filename.
+Find selector in file.
 
     $ qrep #logo ./tpl/index.html
     <header><span id="logo"></span></header>
 
-Find selector on url.
+Find selector using URL.
 
     $ qrep span.octicon-logo-github https://github.com
     <span class="mega-octicon octicon-logo-github"></span>
