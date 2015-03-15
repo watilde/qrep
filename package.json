@@ -25,7 +25,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jsdom": "^3.1.0"
+    "jsdom": "^4.0.2"
   },
   "bugs": {
     "url": "https://github.com/watilde/qrep/issues"
